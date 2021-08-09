@@ -1,0 +1,66 @@
+GET http://localhost:3030/pressure/
+
+###
+
+
+POST http://localhost:3030/pressure/
+Content-Type: application/json 
+
+{
+   "Value":12
+}
+###
+GET http://localhost:3030/temp/
+
+###
+
+
+POST http://localhost:3030/temp/
+Content-Type: application/json 
+
+{
+   "Value":"76"
+}
+###
+
+GET http://localhost:3030/corision/
+
+###
+
+
+POST http://localhost:3030/corision/
+Content-Type: application/json 
+
+{
+   "Value":91
+}
+
+###
+GET http://localhost:3030/diameters/
+
+###
+
+
+POST http://localhost:3030/diameters/
+Content-Type: application/json 
+
+{
+   "Value":86
+}
+
+###
+
+DELETE  http://localhost:3030/pressure/
+###
+DELETE  http://localhost:3030/temp/
+###
+
+DELETE  http://localhost:3030/corision/
+###
+DELETE  http://localhost:3030/temp/
+
+###
+
+GET http://localhost:3030/all/
+
+###
